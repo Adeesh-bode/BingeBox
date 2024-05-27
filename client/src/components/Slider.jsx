@@ -20,7 +20,7 @@ export default function Slider( { movies }) {
       <CardSlider title='Trending' data= {getMoviesFromRange(0,10)}/>
       <CardSlider title='New Releases' data= {getMoviesFromRange(10,20)}/>
       <CardSlider title='Blockbuster movies' data= {getMoviesFromRange(20,30)}/>
-      <CardSlider title='Popular on Netflix' data= {getMoviesFromRange(30,40)}/>
+      <CardSlider title='Popular on BingeBox' data= {getMoviesFromRange(30,40)}/>
       <CardSlider title='Action Movies' data= {getMoviesFromRange(40,50)}/>
       <CardSlider title='Epics' data= {getMoviesFromRange(50,60)}/>
       {/* <CardSlider title='Trending' data= {getMoviesFromRange(70,10)}/> */}
