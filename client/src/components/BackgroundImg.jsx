@@ -1,5 +1,4 @@
 import React from 'react'
-// import Img from "../assets/login.jpg"
 import styled from 'styled-components';
 
 export default function BackgroundImg({Img}) {
