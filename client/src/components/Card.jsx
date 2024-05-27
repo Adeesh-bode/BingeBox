@@ -10,7 +10,6 @@ import { FaPlayCircle } from "react-icons/fa";
 import { BiSolidLike } from "react-icons/bi";
 import { BiSolidDislike } from "react-icons/bi";
 import { GoPlus } from "react-icons/go";
-// import { LuDot } from "react-icons/lu";
 import { FaAngleDown } from "react-icons/fa6";
 
 import { useNavigate } from "react-router-dom";
