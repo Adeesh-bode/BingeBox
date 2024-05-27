@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb://localhost:27017/netflix", {
+  .connect("mongodb://localhost:27017/netflix", { // instead of mongodb compass link , can use 1 free cluster of mongodb atlas  
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
