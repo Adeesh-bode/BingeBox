@@ -124,7 +124,7 @@ return (
       <div className="left">
           <div className="img-div" onClick={()=>navigate("/")}>
             // here bingebox logo
-              <img src={logo} alt="logo" /> 
+              <img src={logo} alt="BingeBox logo" /> 
           </div>
           <div className="navigations">
               <div onClick={()=>navigate("/")} >Home</div>
