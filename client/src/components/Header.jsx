@@ -123,7 +123,8 @@ return (
   <Container>
       <div className="left">
           <div className="img-div" onClick={()=>navigate("/")}>
-              <img src={logo} alt="logo" />
+            // here bingebox logo
+              <img src={logo} alt="logo" /> 
           </div>
           <div className="navigations">
               <div onClick={()=>navigate("/")} >Home</div>
