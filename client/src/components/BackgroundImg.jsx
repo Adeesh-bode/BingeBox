@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export default function BackgroundImg({Img}) {
   return (
     <Container>
-        <img src={Img} alt='BingeBox Background'/>
+        <img src={Img} alt='BingeBox Background'/> // img from props
     </Container>
   )
 }
