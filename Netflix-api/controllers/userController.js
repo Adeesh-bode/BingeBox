@@ -1,4 +1,7 @@
+
 const User = require("../models/UserModel");
+
+// for user : getLikedmovies , delete , addtoliked movies
 
 module.exports.getLikedMovies = async (req, res) => {
   try {
