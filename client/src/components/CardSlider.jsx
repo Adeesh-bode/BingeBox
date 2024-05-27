@@ -5,7 +5,7 @@ import Card from "./Card";
 
 export default React.memo(function CardSlider({ data, title }) {
 
-  const listRef = useRef();
+  const listRef = useRef(); // however use of useRef should be AVOIDED as it uses html elements directly , without interaction with virtual dom 
   const [sliderPosition, setSliderPosition] = useState(0);
   const [showControls, setShowControls] = useState(false);
   const handleDirection = (direction) => {
