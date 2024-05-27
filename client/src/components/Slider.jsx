@@ -1,4 +1,3 @@
-// import React from 'react'
 
 // import fetchDataFromUrl  from '../utils/api';
 import styled from 'styled-components';
