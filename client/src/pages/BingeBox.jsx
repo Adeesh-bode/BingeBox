@@ -59,7 +59,7 @@ export default function Netflix() {
       <BackgroundImg Img={img} />
       <div className="opac-layer">
         <div className="img-div">
-          <img src={titleImg} alt="Netflix Title" />
+          <img src={titleImg} alt="BingeBox Title" />
         </div>
         <div className="btns">
           <button className='play' onClick={()=>navigate('/player')}><FaPlay  size={24}/>{" "}Play</button>
